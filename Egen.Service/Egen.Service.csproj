@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <Company>eGeneration Limited</Company>
+	  <Copyright>© eGeneration Limited</Copyright>
+	  <Description>Service is the class library that works as business logic layer of the application</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Egen.Dto\Egen.Dto.csproj" />
+    <ProjectReference Include="..\Egen.IRepository\Egen.IRepository.csproj" />
+    <ProjectReference Include="..\Egen.IService\Egen.IService.csproj" />
+    <ProjectReference Include="..\Egen.Repository\Egen.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

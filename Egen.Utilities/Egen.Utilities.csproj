@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <Company>eGeneration Limited</Company>
+	  <Copyright>© eGeneration Limited</Copyright>
+	  <Description>The class library contains all utility classes used in the application</Description>
+  </PropertyGroup>
+
+</Project>
